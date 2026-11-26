@@ -6,5 +6,7 @@
 
 from . import general  # noqa: F401  (має йти першим)
 from . import contacts  # noqa: F401
+from . import notes  # noqa: F401
 
-__all__ = ["general", "contacts"]
+
+__all__ = ["general", "contacts", "notes"]
